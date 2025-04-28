@@ -1,4 +1,4 @@
-import './env'
+ import './env'
 import vue from '@vitejs/plugin-vue'
 
 export default defineNuxtConfig({
