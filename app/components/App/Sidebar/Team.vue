@@ -29,16 +29,21 @@ const links = computed(() => [
     icon: 'i-lucide-file-text',
     to: `/dashboard/${currentTeam.value.slug}/posts`,
   },
+  {
+    label: 'Facilities',
+    icon: 'i-lucide-file-text',
+    to: `/dashboard/${currentTeam.value.slug}/facilities`,
+  },
 ])
 
 const settings = computed(() => [
   {
-    label: 'Workspace Settings',
+    label: 'Building Settings',
     icon: 'i-lucide-settings',
     to: `/dashboard/${currentTeam.value.slug}/settings`,
   },
   {
-    label: 'Workspace Members',
+    label: 'Building Members',
     icon: 'i-lucide-users',
     to: `/dashboard/${currentTeam.value.slug}/settings/members`,
   },

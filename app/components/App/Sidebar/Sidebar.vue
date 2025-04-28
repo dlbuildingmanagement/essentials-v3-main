@@ -18,6 +18,7 @@
         </div>
         <div v-else key="account">
           <AppSidebarAccount />
+          
         </div>
       </Transition>
       <footer class="mt-auto">

@@ -42,16 +42,21 @@ const teamNavLinks = computed(() => [
     icon: 'i-lucide-file-text',
     to: `/dashboard/${props.teamSlug}/posts`,
   },
+  {
+    label: 'Facilities',
+    icon: 'i-lucide-file-text',
+    to: `/dashboard/${props.teamSlug}/posts`,
+  },
 ])
 
 const teamSettingsLinks = computed(() => [
   {
-    label: 'Workspace Settings',
+    label: 'Building Settings',
     icon: 'i-lucide-settings',
     to: `/dashboard/${props.teamSlug}/settings`,
   },
   {
-    label: 'Workspace Members',
+    label: 'Building Members',
     icon: 'i-lucide-users',
     to: `/dashboard/${props.teamSlug}/settings/members`,
   },
